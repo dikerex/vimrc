@@ -1305,7 +1305,7 @@ augroup end
 " }}}
 
 call plug#end()
-colorscheme Monokai
+colorscheme monokai
 let g:airline_theme='nova'
 " --> Personalize: allows customizations via a local configuration
 if filereadable(expand("~/.vimrc.local")) | source ~/.vimrc.local | endif
